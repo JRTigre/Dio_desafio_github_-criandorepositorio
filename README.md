@@ -1,2 +1,5 @@
 # Dio_desafio_github_-criandorepositorio
-Desafio de projeto sobre Git/GitHub
+Repositorio criado para desafio de projeto.
+
+## Links Úteis
+[Sitaxe Básica Markdown](https://www.markdownguide.org/)
