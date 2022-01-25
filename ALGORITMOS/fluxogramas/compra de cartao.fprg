@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Marta"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-07 08:58:49 "/>
+        <attribute name="created" value="TWFydGE7VVNVQVJJTy1QQzsyMDIxLTA0LTA2OyIxMDoyNjoyMCAiOzI0MjY="/>
+        <attribute name="edited" value="TWFydGE7VVNVQVJJTy1QQzsyMDIxLTA0LTA3OyIwODo1ODo0OSAiOzI7MjU1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CLIENTE" type="String" array="False" size=""/>
+            <declare name="cart&#227;o" type="Boolean" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cart&#227;o"/>
+            <if expression="cart&#227;o">
+                <then>
+                    <output expression="numero" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente a loja aceita somente compras com cart&#227;o.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
